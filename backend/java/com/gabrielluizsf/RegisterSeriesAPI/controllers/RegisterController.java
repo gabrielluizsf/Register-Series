@@ -14,7 +14,7 @@ import com.gabrielluizsf.RegisterSeriesAPI.entities.Series;
 import com.gabrielluizsf.RegisterSeriesAPI.repositories.SeriesRepository;
 
 @RestController
-@RequestMapping(value ="/series")
+@RequestMapping(value ="/series/API")
 public class RegisterController {
 	@Autowired
  private SeriesRepository repository;
